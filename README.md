@@ -139,7 +139,7 @@ if (clients[req.params.name] != "907326009479667735")
 Do not trust these fuckers. Don't trust ANY malware developer.  
 Watch out, when this post goes live they'll probably want to rebrand.  
 You know, to avoid disappointment, you could literally stop being a stupid fuckng script kiddie and, idk, get a life?  
-In fact, just stop stealing people's shit, you stupid fuckers. Supid fucking script kiddies.  
+In fact, just stop stealing people's shit, you stupid fuckers. Stupid fucking script kiddies.  
 
 # To the shitty malware developers
 Ayooo developers~, if you wanna cry (or shit your pants), come cry (or shit your pants) in my DMs: Extra Frisky#1788  
