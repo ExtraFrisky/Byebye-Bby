@@ -167,13 +167,15 @@ I know I can't stop you from grabbing, but be very careful when you consider giv
 They're probably going to fuck you over.  
 Know when to stop.  
 
+Let me know what you think, open a new issue with your comments: https://github.com/ExtraFrisky/Byebye-Bby/issues/new  
+I'd love to hear your feedback.  
+
 # TL;DR
 1) Bbystealer steals your passwords.txt and cookies.txt
 2) Bbystealer steals your ultra-rare badges. Partner, Developer, HypeSquad, etc. (you get none of these)
 3) You only get shitty badges like Early Supporter. 
 4) Bby is DUALHOOKED in every way possible. Evidence above in code snippets. 
 Want more proof? Message me `Extra Frisky#1788`
-
 
 We are Anonymous. We are legion. We do not forgive. We do not forget. Expect us.
 kekw
