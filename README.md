@@ -52,7 +52,7 @@ Cool!
 
 ... not cool.
 
-Bby's server code has two key points of interest. 
+Bby's server code has **a few key points of interest**. 
 
 # Exhibit #1:
 - ```const admins = ["454317547622367232", "917648088582197298"]```;  
