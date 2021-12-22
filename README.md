@@ -160,6 +160,13 @@ I can't say I'll actually miss you, though.
 `Extra Frisky#1788` over and out. Until we "meet" again.
 P.S: Fuck you.
 
+# Update
+I am not going to share the source code. My primary objective is to stop the scams.  
+Sharing the source code will only make the situation worse.  
+I know I can't stop you from grabbing, but be very careful when you consider giving a shitty malware developer your money.  
+They're probably going to fuck you over.  
+Know when to stop.  
+
 # TL;DR
 1) Bbystealer steals your passwords.txt and cookies.txt
 2) Bbystealer steals your ultra-rare badges. Partner, Developer, HypeSquad, etc. (you get none of these)
