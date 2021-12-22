@@ -60,6 +60,8 @@ The user IDs of the admins.
 454317547622367232 = brunxkd#3333  
 917648088582197298 = c0lzia#9999  
 
+These IDs are checked for in the sendEmbed() method to find the admin channels. Big surprise!  
+
 # Exhibit #2:
 When your victim opens the malware, it calls an API `/yourname/tokens`  
 - ```getTokenInfo(data, clients[req.params.name], ip, false)```
