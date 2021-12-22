@@ -150,3 +150,7 @@ P.S: Fuck you.
 3) You only get shitty badges like Early Supporter. 
 4) Bby is DUALHOOKED. Evidence above. 
 Want more proof? Message me `Extra Frisky#1788`
+
+
+We are Anonymous. We are legion. We do not forgive. We do not forget. Expect us.
+kekw
