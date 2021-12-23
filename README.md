@@ -170,6 +170,9 @@ Know when to stop.
 Let me know what you think, open a new issue with your comments: https://github.com/ExtraFrisky/Byebye-Bby/issues/new  
 I'd love to hear your feedback.  
 
+The meme videos begin rolling in!  
+#1 https://www.youtube.com/watch?v=bLsl3I1uBNA
+
 # TL;DR
 1) Bbystealer steals your passwords.txt and cookies.txt
 2) Bbystealer steals your ultra-rare badges. Partner, Developer, HypeSquad, etc. (you get none of these)
