@@ -172,6 +172,14 @@ I'd love to hear your feedback.
 
 The meme videos begin rolling in!  
 #1 https://www.youtube.com/watch?v=bLsl3I1uBNA
+#2 We started getting some serious quotes from your lovely Brunskid
+
+# Quotes 👌😂
+
+## GentleStar & brunx**skid**
+GentleStar: Are you going to keep stealing from your customers?  
+brunx**skid**: they pay me and work for me  
+brunx**skid**: **you were my mule**  
 
 # TL;DR
 1) Bbystealer steals your passwords.txt and cookies.txt
