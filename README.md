@@ -195,6 +195,12 @@ GentleStar: Are you going to keep stealing from your customers?
 brunx**skid**: they pay me and work for me  
 brunx**skid**: **you were my mule**  
 
+## Brunskid
+brunx**skid** — 26/12/2021  
+@everyone bby open again with 0 detections and no more account stolen with the fucking shit bot now works with webhook only for you  
+  
+(Blaming it on the bot, yet he was the one who developed the bot to steal accounts, so do the math, sounds weird right?)  
+
 # TL;DR
 1) Bbystealer steals your passwords.txt and cookies.txt
 2) Bbystealer steals your ultra-rare badges. Partner, Developer, HypeSquad, etc. (you get none of these)
