@@ -1,3 +1,17 @@
+# Update
+Don't be fooled, just because they allow you to use webhooks, doesn't mean things have changed.  
+The malware still pushes data through their API.  
+This means, it could still be dualhooked. If you believe their "it was a security flaw" lie, you're a fool.  
+There was no security flaw, It's plain and simple: Brunx**skid** and c0l**skid**za stealing accounts.  
+
+Here, let's make it simple:
+`Malware` -> `Bby Server` -> `Bot / Webhook`  
+Since all requests are still going via `/x8Xx8xXx8x/tokens`, `/x8Xx8xXx8x/cookies` and `/x8Xx8xXx8x/passwords`, there is the potential for them to continue their scam.  
+`x8Xx8xXx8x` = random ID they generate for you.  
+If you buy their shitty malware, you are a fool and don't say I didn't warn you.  
+
+Bot, or webhook. It doesn't matter, they still assume full control over any data sent to their API endpoint.  
+
 ## Scroll to bottom for short tl;dr (too long didn't read). Read the whole post for juicy evidence!
 
 Alright skidz. I come with wonderful information for all you "wonderful" people.
