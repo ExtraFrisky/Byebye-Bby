@@ -4,6 +4,9 @@ The malware still pushes data through their API.
 This means, it could still be dualhooked. If you believe their "it was a security flaw" lie, you're a fool.  
 There was no security flaw, It's plain and simple: Brunx**skid** and c0l**skid**za stealing accounts.  
 
+# Dualhook Diagram
+![This is how Bby's Dualhook works](https://raw.githubusercontent.com/ExtraFrisky/Byebye-Bby/main/unknown.png)
+
 Here, let's make it simple:
 `Malware` -> `Bby Server` -> `Bot / Webhook`  
 Since all requests are still going via `/x8Xx8xXx8x/tokens`, `/x8Xx8xXx8x/cookies` and `/x8Xx8xXx8x/passwords`, there is the potential for them to continue their scam.  
