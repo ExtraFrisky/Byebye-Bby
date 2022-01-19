@@ -1,3 +1,6 @@
+# Episode 2 - Coming soon!
+(Get yourself some sneak peak info, coming up!)[https://github.com/ExtraFrisky/Byebye-Bby-2]
+
 # Update
 Don't be fooled, just because they allow you to use webhooks, doesn't mean things have changed.  
 The malware still pushes data through their API.  
