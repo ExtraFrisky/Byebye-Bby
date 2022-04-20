@@ -212,7 +212,6 @@ brunx**skid** — 26/12/2021
 2) Bbystealer steals your ultra-rare badges. Partner, Developer, HypeSquad, etc. (you get none of these)
 3) You only get shitty badges like Early Supporter. 
 4) Bby is DUALHOOKED in every way possible. Evidence above in code snippets. 
-Want more proof? Message me `Extra Frisky#1788`
 
 We are Anonymous. We are legion. We do not forgive. We do not forget. Expect us.
 kekw
